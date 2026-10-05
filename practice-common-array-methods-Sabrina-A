@@ -1,0 +1,39 @@
+// Task 1: Create the Order System
+let drinks = ["Latte", "Tea", "Espresso"];
+let pastries = ["Croissant", "Muffin", "Bagel"];
+
+// Task 2: Log the number of drinks and pastries
+console.log("Number of drinks:", drinks.length);
+console.log("Number of pastries:", pastries.length);
+
+// Task 3: Access Orders Using Bracket Notation
+console.log("First drink:", drinks[0]);
+console.log("Last pastry:", pastries[2]);
+console.log("Second drink:", drinks[1]);
+console.log("First pastry:", pastries[0]);
+console.log("Last drink:", drinks[2]);
+console.log("Second pastry:", pastries[1]);
+
+// Task 4: Access Orders Dynamically with Variables
+let drinkIndex = 1;
+let pastryIndex = 2;
+
+console.log("Selected drink:", drinks[drinkIndex]);
+console.log("Selected pastry:", pastries[pastryIndex]);
+
+// Task 5: Loop through all drinks
+for (let i = 0; i < drinks.length; i++) {
+    console.log("Drink:", drinks[i]);
+}
+
+// Task 6: Add a New Order & Track Length
+drinks.push("Flat White");
+
+console.log("Updated number of drinks:", drinks.length);
+
+// Declare two variables and use them with bracket notation
+let selectedDrink = 3;
+let selectedPastry = 0;
+
+console.log("Dynamically selected drink:", drinks[selectedDrink]);
+console.log("Dynamically selected pastry:", pastries[selectedPastry]);
